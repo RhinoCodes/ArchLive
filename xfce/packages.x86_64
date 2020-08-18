@@ -99,3 +99,6 @@ xorg-server
 xorg-xinit
 xfce4
 firefox
+nvidia-dkms
+mesa
+vulkan-radeon

@@ -100,3 +100,6 @@ xorg
 xorg-server
 xorg-xinit
 firefox
+nvidia-dkms
+mesa
+vulkan-radeon	
