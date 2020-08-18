@@ -6,5 +6,10 @@ Current Iso's:
  * Gnome
  * DWM
 
-* PR's Welcome
+## PR's Welcome
 Anyone is welcome to PR a new iso in, just look at the [archiso wiki](https://wiki.archlinux.org/index.php/archiso)
+
+### DWM Keybindings
+Alt-p           | Dmenu (a app launcher)
+Alt-shift-enter | open terminal
+Alt-j/k         | switch focused window
