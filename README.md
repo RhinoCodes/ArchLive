@@ -3,7 +3,7 @@ ArchLive is a custom archiso that has a DE or WM preinstalled, so you can have t
 your terminal.
 
 Current Iso's:
- * Gnome
+ * Xfce
  * DWM
 
 ## PR's Welcome
