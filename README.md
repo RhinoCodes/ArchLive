@@ -13,3 +13,6 @@ Anyone is welcome to PR a new iso in, just look at the [archiso wiki](https://wi
 Alt-p           | Dmenu (a app launcher)<br>
 Alt-shift-enter | open terminal<br>
 Alt-j/k         | switch focused window
+
+## Gnome
+Click 'Activities' to get a dock and a search bar
