@@ -14,5 +14,4 @@ Alt-p           | Dmenu (a app launcher)<br>
 Alt-shift-enter | open terminal<br>
 Alt-j/k         | switch focused window
 
-## Gnome
-Click 'Activities' to get a dock and a search bar
+### [Discord](https://discord.com/channels/745321685468577792/745321685892202569)
