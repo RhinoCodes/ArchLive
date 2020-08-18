@@ -1,6 +1,6 @@
 # Archlive
 ArchLive is a custom archiso that has a DE or WM preinstalled, so you can have the archwiki open right next to 
-your terminal.
+your terminal. Basically its a comfier install iso.
 
 Current Iso's:
  * Xfce
