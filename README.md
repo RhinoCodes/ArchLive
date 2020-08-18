@@ -1,5 +1,5 @@
-# ezarch
-EzArch is a custom archiso that has a DE or WM preinstalled, so you can have the archwiki open right next to 
+# LiveArch
+LiveArch is a custom archiso that has a DE or WM preinstalled, so you can have the archwiki open right next to 
 your terminal.
 
 Current Iso's:
