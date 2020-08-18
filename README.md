@@ -14,4 +14,4 @@ Alt-p           | Dmenu (a app launcher)<br>
 Alt-shift-enter | open terminal<br>
 Alt-j/k         | switch focused window
 
-###[Discord](https://discord.com/channels/745321685468577792/745321685892202569)
+### [Discord](https://discord.com/channels/745321685468577792/745321685892202569)
