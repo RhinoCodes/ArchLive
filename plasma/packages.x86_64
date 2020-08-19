@@ -96,14 +96,11 @@ xl2tpd
 zsh
 xorg
 xorg-xinit
+plasma-desktop
 firefox
-kitty
-openbox
-tint2
+dolphin
+konsole
 nvidia-dkms
 mesa
 vulkan-radeon
-xwallpaper
 gparted
-ttf-dejavu
-ttf-liberation

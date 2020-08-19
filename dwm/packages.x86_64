@@ -4,7 +4,8 @@ amd-ucode
 arch-install-scripts
 b43-fwcutter
 base
-base-devel
+gcc
+automake
 git
 bind-tools
 broadcom-wl
