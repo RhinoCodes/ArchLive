@@ -188,6 +188,11 @@ make_isolinux() {
     cp "${work_dir}/x86_64/airootfs/usr/lib/syslinux/bios/ldlinux.c32" "${work_dir}/iso/isolinux/"
 }
 
+# make grub rescue (copy the first boot file, not from arch/boot
+make_grubrescue() {
+    mkdir -p "${script_path}/work/iso"
+    cp  -r "${script_path}/boot" "${script_path}/work/iso"
+}
 # Prepare /EFI
 make_efi() {
     mkdir -p "${work_dir}/iso/EFI/boot"
@@ -222,6 +227,11 @@ make_efiboot() {
 
     cp "${work_dir}/iso/${install_dir}/boot/intel-ucode.img" "${work_dir}/efiboot/EFI/archiso/"
     cp "${work_dir}/iso/${install_dir}/boot/amd-ucode.img" "${work_dir}/efiboot/EFI/archiso/"
+    
+# adding the img and efi to grub rescure
+    cp "${script_path}/boot/grubx64.efi" "${work_dir}/efiboot/EFI/archiso/"
+    cp "${script_path}/boot/core.img" "${work_dir}/efiboot/EFI/archiso/"
+    
 
     mkdir -p "${work_dir}/efiboot/EFI/boot"
     cp "${work_dir}/x86_64/airootfs/usr/lib/systemd/boot/efi/systemd-bootx64.efi" \
@@ -235,6 +245,8 @@ make_efiboot() {
         "${script_path}/efiboot/loader/entries/archiso-x86_64-cd.conf" > \
         "${work_dir}/efiboot/loader/entries/archiso-x86_64.conf"
 
+    cp "${script_path}/efiboot/loader/entries/GrubRescue.conf" "${work_dir}/efiboot/loader/entries/"
+    
     # shellx64.efi is picked up automatically when on /
     cp "${work_dir}/iso/shellx64.efi" "${work_dir}/efiboot/"
 
@@ -299,6 +311,7 @@ run_once make_packages
 run_once make_customize_airootfs
 run_once make_boot
 run_once make_boot_extra
+run_once make_grubrescue
 run_once make_syslinux
 run_once make_isolinux
 run_once make_efi
