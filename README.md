@@ -5,6 +5,7 @@ your terminal. Basically its a comfier install iso.
 Current Iso's:
  * Xfce
  * DWM
+ * OpenBox
 
 ## PR's Welcome
 Anyone is welcome to PR a new iso in, just look at the [archiso wiki](https://wiki.archlinux.org/index.php/archiso)
