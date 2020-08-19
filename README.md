@@ -7,7 +7,8 @@ Current 3 main iso's:
  * Openbox
  * Xfce
  * KDE Plasma
-Choose the iso to your hardware power.
+ 
+Choose the iso to your hardware power or prefrence.
 
 ## PR's Welcome
 Anyone is welcome to PR a new iso in, just look at the [archiso wiki](https://wiki.archlinux.org/index.php/archiso)
