@@ -6,6 +6,7 @@ Current Iso's:
  * Xfce
  * DWM
  * OpenBox
+ * KDE Plasma
 
 ## PR's Welcome
 Anyone is welcome to PR a new iso in, just look at the [archiso wiki](https://wiki.archlinux.org/index.php/archiso)
