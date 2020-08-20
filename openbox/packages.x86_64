@@ -7,7 +7,6 @@ base
 bind-tools
 broadcom-wl
 btrfs-progs
-clonezilla
 crda
 darkhttpd
 ddrescue
@@ -22,8 +21,6 @@ efibootmgr
 ethtool
 exfat-utils
 f2fs-tools
-fsarchiver
-gnu-netcat
 gpm
 gptfdisk
 grml-zsh-config
@@ -34,7 +31,6 @@ ipw2100-fw
 ipw2200-fw
 irssi
 iwd
-konsole
 jfsutils
 networkmanager
 network-manager-applet
@@ -44,7 +40,6 @@ linux-atm
 linux-firmware
 lsscsi
 lvm2
-lynx
 man-db
 man-pages
 mc
@@ -59,7 +54,6 @@ nbd
 ndisc6
 nfs-utils
 nilfs-utils
-nmap
 ntfs-3g
 nvme-cli
 openconnect
