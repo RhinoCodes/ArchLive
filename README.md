@@ -12,6 +12,8 @@ Choose the iso to your hardware power or preference.
 
 ## PR's Welcome
 Anyone is welcome to PR a new iso in, just look at the [archiso wiki](https://wiki.archlinux.org/index.php/archiso)
+
 Also for installing archlinux, the [wiki](https://wiki.archlinux.org/index.php/Installation_guide) is the best guide.
 For any questions you are welcome on our discord server.
+
 ### [Discord](https://discord.com/channels/745321685468577792/745321685892202569)
