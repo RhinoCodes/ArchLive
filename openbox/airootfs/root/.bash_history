@@ -39,3 +39,8 @@ startx
 startx
 startx
 logout
+nm-applet 
+nano .xinitrc 
+ls
+rm customize_airootfs.sh 
+thunar
