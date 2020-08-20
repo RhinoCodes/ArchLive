@@ -24,6 +24,8 @@ exfat-utils
 f2fs-tools
 fsarchiver
 gnu-netcat
+networkmanager
+plasma-nm
 gpm
 gptfdisk
 grml-zsh-config

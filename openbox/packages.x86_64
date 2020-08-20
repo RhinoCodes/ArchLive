@@ -1,4 +1,4 @@
-#
+﻿#
 # SPDX-License-Identifier: GPL-3.0-or-later
 amd-ucode
 arch-install-scripts
@@ -34,8 +34,10 @@ ipw2100-fw
 ipw2200-fw
 irssi
 iwd
+konsole
 jfsutils
-kitty-terminfo
+networkmanager
+network-manager-applet
 lftp
 linux
 linux-atm
@@ -97,7 +99,6 @@ zsh
 xorg
 xorg-xinit
 firefox
-kitty
 openbox
 tint2
 nvidia-dkms

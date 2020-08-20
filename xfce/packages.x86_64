@@ -20,6 +20,8 @@ dosfstools
 edk2-shell
 efibootmgr
 ethtool
+networkmanager
+network-manager-applet
 exfat-utils
 f2fs-tools
 fsarchiver
