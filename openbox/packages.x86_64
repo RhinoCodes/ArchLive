@@ -89,7 +89,7 @@ wvdial
 xfsprogs
 xl2tpd
 zsh
-xorg
+xorg-server
 xorg-xinit
 firefox
 openbox
