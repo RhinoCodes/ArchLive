@@ -3,6 +3,8 @@ ArchLive is a custom archiso that has a DE or WM preinstalled, so you can have t
 your terminal. Basically its a comfier install iso. It also has possibility
 to be used as a Rescue pendrive. It includes tools like "Grub rescue", from MX linux and gparted.
 
+TLDR; ArchLive is a live iso with a Desktop Enviroment 
+
 Current 3 main iso's:
  * Openbox
  * Xfce
