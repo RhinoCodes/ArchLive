@@ -31,8 +31,6 @@ ipw2200-fw
 irssi
 iwd
 jfsutils
-networkmanager
-network-manager-applet
 lftp
 linux
 linux-atm
@@ -89,6 +87,7 @@ wvdial
 xfsprogs
 xl2tpd
 zsh
+### Added for openbox ###
 xorg-server
 xorg-xinit
 firefox
@@ -102,3 +101,5 @@ gparted
 ttf-dejavu
 ttf-liberation
 alacritty
+networkmanager
+network-manager-applet

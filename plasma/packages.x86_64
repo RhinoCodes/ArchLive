@@ -24,8 +24,6 @@ exfat-utils
 f2fs-tools
 fsarchiver
 gnu-netcat
-networkmanager
-plasma-nm
 gpm
 gptfdisk
 grml-zsh-config
@@ -96,6 +94,7 @@ wvdial
 xfsprogs
 xl2tpd
 zsh
+### Added for plasma ###
 xorg
 xorg-xinit
 plasma-desktop
@@ -106,3 +105,5 @@ nvidia-dkms
 mesa
 vulkan-radeon
 gparted
+networkmanager
+plasma-nm

@@ -20,8 +20,6 @@ dosfstools
 edk2-shell
 efibootmgr
 ethtool
-networkmanager
-network-manager-applet
 exfat-utils
 f2fs-tools
 fsarchiver
@@ -96,6 +94,7 @@ wvdial
 xfsprogs
 xl2tpd
 zsh
+### added for xfce ###
 xorg
 xorg-server
 xorg-xinit
@@ -105,3 +104,5 @@ nvidia-dkms
 mesa
 vulkan-radeon
 gparted
+networkmanager
+network-manager-applet
