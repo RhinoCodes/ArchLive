@@ -1,4 +1,3 @@
-#
 # SPDX-License-Identifier: GPL-3.0-or-later
 amd-ucode
 arch-install-scripts
@@ -7,9 +6,7 @@ base
 bind-tools
 broadcom-wl
 btrfs-progs
-clonezilla
 crda
-darkhttpd
 ddrescue
 dhclient
 dhcpcd
@@ -22,11 +19,8 @@ efibootmgr
 ethtool
 exfat-utils
 f2fs-tools
-fsarchiver
-gnu-netcat
 gpm
 gptfdisk
-grml-zsh-config
 haveged
 hdparm
 intel-ucode
@@ -35,14 +29,12 @@ ipw2200-fw
 irssi
 iwd
 jfsutils
-kitty-terminfo
 lftp
 linux
 linux-atm
 linux-firmware
 lsscsi
 lvm2
-lynx
 man-db
 man-pages
 mc
@@ -57,7 +49,6 @@ nbd
 ndisc6
 nfs-utils
 nilfs-utils
-nmap
 ntfs-3g
 nvme-cli
 openconnect
@@ -76,7 +67,6 @@ rxvt-unicode-terminfo
 sdparm
 sg3_utils
 smartmontools
-sudo
 syslinux
 systemd-resolvconf
 tcpdump

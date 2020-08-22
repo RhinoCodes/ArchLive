@@ -7,7 +7,6 @@ bind-tools
 broadcom-wl
 btrfs-progs
 crda
-darkhttpd
 ddrescue
 dhclient
 dhcpcd
@@ -22,7 +21,6 @@ exfat-utils
 f2fs-tools
 gpm
 gptfdisk
-grml-zsh-config
 haveged
 hdparm
 intel-ucode
@@ -69,7 +67,6 @@ rxvt-unicode-terminfo
 sdparm
 sg3_utils
 smartmontools
-sudo
 syslinux
 systemd-resolvconf
 tcpdump
