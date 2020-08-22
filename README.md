@@ -14,7 +14,8 @@ Choose the iso to your hardware power or preference.
 Also the beta isos are mostly stable we just needed a naming scheme, so feature crowd and then start testing the features.
 
 ## Grub Rescue
-Syzbet added grub rescue which allows you to boot to other efi files, such as the Windows bootloader or another grub
+Szybet added grub rescue which allows you to boot to systems (Windows also), or just efi files.
+Its good for troubleshooting.
 ## PR's Welcome
 Anyone is welcome to PR a new iso in, just look at the [archiso wiki](https://wiki.archlinux.org/index.php/archiso)
 
