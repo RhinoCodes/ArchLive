@@ -16,6 +16,17 @@ Also the beta isos are mostly stable we just needed a naming scheme, so feature 
 ## Grub Rescue
 Szybet added grub rescue which allows you to boot to systems (Windows also), or just efi files.
 Its good for troubleshooting.
+## How to
+You need those packages and a Arch based distro:
+arch-install-scripts
+bash
+dosfstools
+e2fsprogs
+libisoburn
+squashfs-tools
+Then just ran the .build with root privileges in the same directory as the rest of files.
+If you are on a non Arch based distro, just download the Iso.
+
 ## PR's Welcome
 Anyone is welcome to PR a new iso in, just look at the [archiso wiki](https://wiki.archlinux.org/index.php/archiso)
 
