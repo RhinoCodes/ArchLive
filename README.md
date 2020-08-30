@@ -35,7 +35,7 @@ or
 
 `archiso`
 
-Then just run `./mkarchiso -v` as root, the iso will be in `out/`
+Then just run `./mkarchiso -v` in the profile dir, as root, the iso will be in `out/`
 To rebuild first remove `work/` as root (`# rm -rf work`)
 
 ## PR's Welcome
