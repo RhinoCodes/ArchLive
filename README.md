@@ -20,12 +20,19 @@ Its good for troubleshooting.
 You need those packages and a Arch based distro:
 
 `arch-install-scripts`
+
 `bash`
+
 `dosfstools`
+
 `e2fsprogs`
+
 `libisoburn`
+
 `squashfs-tools`
+
 or
+
 `archiso`
 
 Then just run `./mkarchiso -v` as root, the iso will be in `out/`
