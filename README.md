@@ -25,8 +25,11 @@ You need those packages and a Arch based distro:
 `e2fsprogs`
 `libisoburn`
 `squashfs-tools`
+or
+`archiso`
 
-Then just run the .build with root privileges in the same directory as the rest of files.
+Then just run `./mkarchiso -v` as root, the iso will be in `out/`
+To rebuild first remove `work/` as root (`# rm -rf work`)
 
 ## PR's Welcome
 Anyone is welcome to PR a new iso in, just look at the [archiso wiki](https://wiki.archlinux.org/index.php/archiso)
