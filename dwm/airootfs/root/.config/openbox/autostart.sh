@@ -1,0 +1,1 @@
+sh ~/.local/bin/setbg

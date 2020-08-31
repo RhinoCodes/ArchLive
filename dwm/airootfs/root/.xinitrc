@@ -1,0 +1,2 @@
+setbg
+exec dwm
