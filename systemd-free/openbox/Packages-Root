@@ -1,0 +1,119 @@
+base
+xorg
+openbox
+ttf-dejavu
+ttf-liberation
+xorg-xinit
+firefox
+tint2
+xwallpaper
+network-manager-applet
+alacritty
+gparted
+@openrc elogind-openrc
+@runit elogind-runit
+@s6 elogind-s6
+acpi
+b43-fwcutter
+btrfs-progs
+crda
+dhclient
+diffutils
+dmraid
+dnsmasq
+dosfstools
+e2fsprogs
+ecryptfs-utils
+exfat-utils
+f2fs-tools
+grub
+inetutils
+iptables
+ipw2100-fw
+ipw2200-fw
+jfsutils
+linux
+linux-headers
+linux-firmware
+logrotate
+lsb-release
+man-db
+man-pages
+memtest86+
+mkinitcpio
+mkinitcpio-openswap
+nano
+net-tools
+ntfs-3g
+@openrc acpid-openrc
+@openrc cronie-openrc
+@openrc cryptsetup-openrc
+@openrc dhcpcd-openrc
+@openrc haveged-openrc
+@openrc lvm2-openrc
+@openrc mdadm-openrc
+@openrc nfs-utils-openrc
+@openrc rsync-openrc
+@openrc openssh-openrc
+@openrc wpa_supplicant-openrc
+@openrc metalog-openrc
+@runit acpid-runit
+@runit cronie-runit
+@runit cryptsetup-runit
+@runit dhcpcd-runit
+@runit haveged-runit
+@runit lvm2-runit
+@runit mdadm-runit
+@runit nfs-utils-runit
+@runit rsync-runit
+@runit openssh-runit
+@runit wpa_supplicant-runit
+@runit metalog-runit
+@s6 acpid-s6
+@s6 cronie-s6
+@s6 cryptsetup-s6
+@s6 dhcpcd-s6
+@s6 haveged-s6
+@s6 lvm2-s6
+@s6 mdadm-s6
+@s6 nfs-utils-s6
+@s6 rsync-s6
+@s6 openssh-s6
+@s6 wpa_supplicant-s6
+@s6 metalog-s6
+os-prober
+reiserfsprogs
+s-nail
+sudo
+sysfsutils
+texinfo
+usbutils
+which
+efibootmgr
+xfsprogs
+zsh
+
+mkinitcpio-nfs-utils
+squashfs-tools
+nbd
+
+@openrc artix-live-openrc
+@runit artix-live-runit
+@s6 artix-live-s6
+
+@openrc connman-openrc
+@openrc ntp-openrc
+@openrc bluez-openrc
+@runit connman-runit
+@runit ntp-runit
+@runit bluez-runit
+@s6 connman-s6
+@s6 ntp-s6
+@s6 bluez-s6
+
+intel-ucode
+amd-ucode
+
+artix-grub-live
+artix-grub-theme
+artix-branding-base
