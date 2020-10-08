@@ -37,7 +37,7 @@ or
 `archiso`
 
 Then just run `./mkarchiso -v .` in the profile dir, as root, the iso will be in `out/`
-To rebuild remove `work/` and 'out/' as root (`# rm -rf work out`).
+To rebuild remove `work/` and `out/` as root (`# rm -rf work out`).
 
 ## PR's Welcome
 Anyone is welcome to PR a new iso in, just look at the [archiso wiki](https://wiki.archlinux.org/index.php/archiso)
