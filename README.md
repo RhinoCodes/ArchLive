@@ -11,11 +11,12 @@ Current 3 main iso's:
  * KDE Plasma
  
 Choose the iso to your hardware power or preference.
-Also the beta isos are mostly stable we just needed a naming scheme, so feature crowd and then start testing the features.
+DWM and systemd free isos are not supported in 100%, just keep that in mind.
 
 ## Grub Rescue
 Szybet added grub rescue which allows you to boot to systems (Windows also), or just efi files.
 Its good for troubleshooting.
+
 ## How to Build
 You need those packages and a Arch based distro:
 
@@ -35,8 +36,8 @@ or
 
 `archiso`
 
-Then just run `./mkarchiso -v` in the profile dir, as root, the iso will be in `out/`
-To rebuild first remove `work/` as root (`# rm -rf work`)
+Then just run `./mkarchiso -v .` in the profile dir, as root, the iso will be in `out/`
+To rebuild remove `work/` and 'out/' as root (`# rm -rf work out`).
 
 ## PR's Welcome
 Anyone is welcome to PR a new iso in, just look at the [archiso wiki](https://wiki.archlinux.org/index.php/archiso)
@@ -45,3 +46,4 @@ Also for installing archlinux, the [wiki](https://wiki.archlinux.org/index.php/I
 For any questions you are welcome on our discord server.
 
 ### [Discord](https://discord.gg/a9DtayU)
+For any questions :)

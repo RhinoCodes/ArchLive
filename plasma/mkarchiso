@@ -284,10 +284,10 @@ _mkairootfs_img() {
     _msg_info "Creating SquashFS image, this may take some time..."
     if [[ "${quiet}" = "y" ]]; then
         mksquashfs "${airootfs_dir}.img" "${isofs_dir}/${install_dir}/${arch}/airootfs.sfs" -noappend \
-            -comp "${sfs_comp}" -no-progress > /dev/null
+            -comp "${sfs_comp}" -b 1048576 -Xdict-size 100% -no-progress > /dev/null
     else
         mksquashfs "${airootfs_dir}.img" "${isofs_dir}/${install_dir}/${arch}/airootfs.sfs" -noappend \
-            -comp "${sfs_comp}"
+            -comp "${sfs_comp}" -b 1048576 -Xdict-size 100%
     fi
     _msg_info "Done!"
     rm -- "${airootfs_dir}.img"
@@ -303,10 +303,10 @@ _mkairootfs_sfs() {
     _msg_info "Creating SquashFS image, this may take some time..."
     if [[ "${quiet}" = "y" ]]; then
         mksquashfs "${airootfs_dir}" "${isofs_dir}/${install_dir}/${arch}/airootfs.sfs" -noappend \
-            -comp "${sfs_comp}" -no-progress > /dev/null
+            -comp "${sfs_comp}" -b 1048576 -Xdict-size 100% -no-progress > /dev/null
     else
         mksquashfs "${airootfs_dir}" "${isofs_dir}/${install_dir}/${arch}/airootfs.sfs" -noappend \
-            -comp "${sfs_comp}"
+            -comp "${sfs_comp}" -b 1048576 -Xdict-size 100%
     fi
     _msg_info "Done!"
 }
