@@ -45,5 +45,9 @@ Anyone is welcome to PR a new iso in, just look at the [archiso wiki](https://wi
 Also for installing archlinux, the [wiki](https://wiki.archlinux.org/index.php/Installation_guide) is the best guide.
 For any questions you are welcome on our discord server.
 
+## DWM Tutorial
+ * `Super+p` - dmenu (Command Launcher)
+ * `Super+q` - Close Window
+
 ### [Discord](https://discord.gg/a9DtayU)
 For any questions :)
