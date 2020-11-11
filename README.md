@@ -37,10 +37,9 @@ or
 `archiso`
 
 Then just run `./mkarchiso -v .` in the profile dir, as root, the iso will be in `out/`
-To rebuild remove `work/` and `out/` as root (`# rm -rf work out`).
-
+To rebuild remove `work/` and `out/` as root.
 ## PR's Welcome
-Anyone is welcome to PR a new iso in, just look at the [archiso wiki](https://wiki.archlinux.org/index.php/archiso)
+Anyone is welcome to PR a new iso in, just look at the [archiso wiki](https://wiki.archlinux.org/index.php/archiso) and the traditional [way](https://wiki.archlinux.org/index.php?title=Remastering_the_Install_ISO&oldid=627352)
 
 Also for installing archlinux, the [wiki](https://wiki.archlinux.org/index.php/Installation_guide) is the best guide.
 For any questions you are welcome on our discord server.
